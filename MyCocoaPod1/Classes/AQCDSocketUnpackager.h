@@ -12,6 +12,4 @@
 @interface AQCDSocketUnpackager : NSObject
 /// 接收数据包，当前包解包成功
 - (void)unpackageTCP_MessagePackage:(NSData *)package complete: (void(^)())complete;
-
-
 @end

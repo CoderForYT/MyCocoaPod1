@@ -24,7 +24,7 @@ static short int kPackageEnder = 0xfffe;
 - (instancetype)init {
     self = [super init];
     if (self) {
-        self.semaphore = dispatch_semaphore_create(3);
+        self.semaphore = dispatch_semaphore_create(1);
     }
     return self;
 }
